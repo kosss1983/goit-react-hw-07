@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  margin-bottom: 35px;
+  border: 1px solid var(--black);
+  border-radius: 5px;
+  gap: 15px;
+  & button {
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: var(--red);
+}

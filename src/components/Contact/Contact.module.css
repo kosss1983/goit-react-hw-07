@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  border: 1px solid var(--black);
+  border-radius: 4px;
+}
+
+.contact {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 7px;
+  overflow-wrap: break-word;
+  & svg {
+    margin-right: 7px;
+  }
+}
+
+.deleteWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.deleteBtn {
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}

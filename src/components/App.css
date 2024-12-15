@@ -1,0 +1,35 @@
+:root {
+  --black: #1a1a1a;
+  --blue: #646cff;
+  --red: #cf222e;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  padding: 15px 35px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.formBox {
+  width: 25%;
+  margin-bottom: 25px;
+  & input {
+    font-size: 18px;
+    padding: 5px;
+  }
+  & label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
